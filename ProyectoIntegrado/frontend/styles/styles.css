@@ -1,0 +1,221 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #b2daf1;
+}
+
+.banner {
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 35vh;
+    border: 2px solid black; /*  Visualiza el área del banner */
+    display: flex;
+    flex-direction: column; /* Apila el logo y los botones verticalmente */
+    justify-content: center; /* Centra verticalmente el contenido (logo y botones) */
+    align-items: center; /* Centra horizontalmente el contenido (logo y botones) */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+    text-align: center; /* Centrar elementos en bloque, como el logo */
+}
+
+.logo {
+    z-index: 10;
+    margin-bottom: 20px; /* Añade espacio entre el logo y los botones */
+}
+
+.logo img {
+    max-width: 50%;
+    height: auto; /* Ajusta la altura proporcionalmente */
+    display: block; /* Asegura que el logo se comporte como un elemento de bloque para que text-align funcione */
+    margin: 0 auto; /* Otra forma de centrar horizontalmente elementos de bloque */
+}
+
+.btnmenu {
+    z-index: 10; /* Asegura que los botones estén por encima del fondo */
+    display: flex; /* Distribuye los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+    justify-content: center; /* Centra los botones horizontalmente */
+}
+
+.btnmenu button {
+    /* Puedes añadir estilos específicos para los botones dentro del banner aquí */
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+.formConnect {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px auto; 
+    max-width: 50%; 
+    width: 100%;
+}
+
+button {
+    background-color: #e3b34a;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none; /* Elimina el borde predeterminado de los botones */
+    border-radius: 5px; /* Añade un pequeño radio de borde */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(231, 203, 43);
+    color: black;
+}
+
+#contenedor-principal {
+   
+   
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center; /* Centra el contenido en línea dentro de este contenedor */
+
+
+}
+
+.coleccion-boton {
+    background-color: #e3b34a;
+    color: #333; 
+    border: 1px solid #ccc; 
+    padding: 10px 15px; /* Espaciado interior */
+    margin-right: 10px; /* Espacio entre botones */
+    margin-bottom: 10px;
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 400px;
+    height: 200px;
+    font-size: 50px;
+    transition: background-color 0.3s ease;
+    background-image: url('../images/button1.png');
+    font-family: 'Slackey', cursive;
+    
+}
+
+.coleccion-boton:hover {
+    background-color: #e2be71;
+    background-image: url('../images/button2.png');
+}
+
+/* Estilo para el botón "Crear nueva colección" */
+.crear-nueva-coleccion-boton {
+    background-color: #a0d468; 
+    color: #fff; /* Texto blanco para contraste */
+    border-color: #8cc152; 
+    background-image: url('../images/button3.png');
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: 'revie', cursive;
+}
+
+.crear-nueva-coleccion-boton:hover {
+    background-color: #8cc152;
+    background-image: url('../images/button4.png');
+}
+
+h2 {
+    /* Elimina los márgenes automáticos si el centrado del contenedor funciona */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.form-nueva-coleccion {
+    text-align: center; /* Centra el texto dentro del formulario */
+    margin-left: auto; /* Establece el margen izquierdo automático */
+    margin-right: auto; /* Establece el margen derecho automático */
+    display: block; /* Asegura que el contenedor del formulario sea un bloque */
+    max-width: 600px; /* O el ancho que desees para el formulario */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido del formulario */
+    background-color: #f9f9f9; /* Un fondo suave para distinguirlo */
+    border: 1px solid #ddd; /* Un borde sutil */
+    border-radius: 8px; /* Bordes redondeados */
+    margin-top: 20px; /* Espacio superior para separarlo del contenido anterior */
+}
+
+.addfunko {
+    text-align: center; /* Centra el contenido dentro del formulario */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    margin: 20px auto; /* Centra el formulario horizontalmente y añade un margen superior */
+}
+
+.addfunko label,
+.addfunko input,
+.addfunko button {
+    display: block;
+    margin: 10px auto; /* Centra horizontalmente los elementos de bloque */
+    width: 80%; /* Ajusta el ancho si es necesario */
+    box-sizing: border-box;
+}
+
+.addfunko button {
+    background-color: #a0d468;
+    color: #020202;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.addfunko button:hover {
+    background-color: #8cc152;
+}
+
+
+.ir_registro{
+  background-color: #5cb85c; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.ir_registro:hover {
+    background-color: #4cae4c;
+}
+
+#contenedor-botones-colecciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Mensaje cuando no hay colecciones */
+.mensaje-sin-colecciones {
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    color: #e20c0c;
+    margin-top: 15px;
+    font-size: 18px;
+}

@@ -1,0 +1,57 @@
+.tabla-funko {
+    margin: 20px auto; /* Márgenes automáticos para centrar la tabla */
+    max-width: 50%; /* Establece que la tabla ocupe hasta el 50% del ancho de la página */
+    width: 100%; /* Asegura que la tabla ocupe el 100% de su contenedor disponible */
+}
+
+.tabla-funko table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    border: 2px solid black; /* Borde negro alrededor de la tabla */
+}
+
+.tabla-funko th, .tabla-funko td {
+    border: 1px solid black; /* Borde negro alrededor de las celdas */
+    padding: 8px;
+    text-align: left;
+    background-color: #fcfcfc;
+}
+
+.tabla-funko th {
+background-color: #e3b34a;
+
+}
+
+
+.tabla-funko img {
+    max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+    display: block; /* Evita espacio extra debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen en la celda */
+}
+
+.tabla-funko button {
+    background-color: #5cb85c; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.tabla-funko button:hover {
+    background-color: #4cae4c;
+    color: black;
+}
+
+.tabla-funko .sin-funkos td {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
+
+

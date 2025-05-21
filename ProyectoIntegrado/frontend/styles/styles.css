@@ -43,7 +43,7 @@ body {
 }
 
 .btnmenu button {
-    /* Puedes añadir estilos específicos para los botones dentro del banner aquí */
+    
     padding: 10px 15px;
     font-size: 1em;
 }
@@ -132,7 +132,7 @@ button:hover {
 }
 
 h2 {
-    /* Elimina los márgenes automáticos si el centrado del contenedor funciona */
+    
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -146,7 +146,7 @@ h2 {
     max-width: 600px; /* O el ancho que desees para el formulario */
     padding: 20px; /* Añade un poco de espacio alrededor del contenido del formulario */
     background-color: #f9f9f9; /* Un fondo suave para distinguirlo */
-    border: 1px solid #ddd; /* Un borde sutil */
+    border: 1px solid #ddd; 
     border-radius: 8px; /* Bordes redondeados */
     margin-top: 20px; /* Espacio superior para separarlo del contenido anterior */
 }

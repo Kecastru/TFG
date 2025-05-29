@@ -42,7 +42,7 @@ if (!isset($_SESSION['username_id'])) {
     <div id="contenedor-botones-colecciones"></div>
 </div>
 
-<!-- Script para cargar dinámicamente las colecciones de otros usuarios -->
+
 <script>
 /**
  * Función para cargar las colecciones de otros usuarios desde el backend
